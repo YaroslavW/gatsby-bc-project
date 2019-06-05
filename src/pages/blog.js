@@ -29,7 +29,7 @@ const BlogPage = () => {
       <ol>
         {data.allMarkdownRemark.edges.map(edge => {
           return (
-            <li>
+            <li key={edge.node.frontmatter.title}>
               <Link to={`/blog/${edge.node.fields.slug}`}>
                 <h1>{edge.node.frontmatter.title}</h1>
                 <p>{edge.node.frontmatter.data}</p>
