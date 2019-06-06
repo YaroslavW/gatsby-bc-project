@@ -5,6 +5,8 @@ data: "2019-06-04"
 
 I love React and JavaScript very much!
 
+![Squirrel](./image_2.jpg)
+
 # Header
 
 1. Gatsby
